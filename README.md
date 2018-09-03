@@ -43,10 +43,9 @@ We could obtain a **error** as:
 
 |Data|Error|
 |----|-----|
-|x   |0.123|
+|x   |0.120|
 |y   |0.112|
 |yaw |0.004|
-|vy  |0.520|
 
 An the simulator could execute the test in less than 60 seconds.
 
