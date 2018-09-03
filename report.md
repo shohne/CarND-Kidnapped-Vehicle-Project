@@ -11,10 +11,10 @@ There are 3 main steps in this code:
 2. Prediction;
 3. Update state;
 
-All these 3 steps are in the file **src/particle_filter.cpp**. The *initialization* is on method **init**. There, we set the number of particle filters in **100** and equals weights for each particle. We set random gaussian generators used to sample (x,y) and theta variables for each particle filter.
+All these 3 steps are in the file **src/particle_filter.cpp**. The *initialization* can be found in method **init**. There, the number of particles is set in **100** and equal weights for each particle is given. Random gaussian generators are used for sample (x,y) and theta variables for each particle filter.
 
-The **prediction** method predicts the next position (x,y) and theta for a given elapse time (since last update). In essence, We apply the movement model to each particle filter considering gaussian noise.
+The **prediction** method predicts the next position (x,y) and theta for a given elapse time (since last update). In essence, the movement model is applied to each particle filter considering gaussian noise.
 
-The last step takes place in **updateWeights** and **resample** methods. The ideia is verify probability for each particle filter given a set of observations (distance between vehicle and landmarks). In **resample**, We discard particles with low weight (low probability) replacing it for particles with high weights (high probability).
+The last step takes place in **updateWeights** and **resample** methods. The ideia is to verify the probability for each particle filter given a set of observations (distance between vehicle and landmarks). In **resample**, particles with low weight (low probability) are rejected and replaced by particles with high weights (high probability).
 
 

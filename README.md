@@ -1,7 +1,7 @@
 ## Kidnapped Vehicle Project
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-This repo contains the written code to complete the project **Kidnapped Vehicle Project** on Udacity Self-Driving Car Nanodegree. The goal is to predict vehicle position and orientation from measures distance to landmarks using a [Particle Filter](https://en.wikipedia.org/wiki/Particle_filter). 
+This repo contains the written code to complete the project **Kidnapped Vehicle Project** on Udacity Self-Driving Car Nanodegree. The goal is to predict vehicle position and orientation from measure distances to landmarks using a [Particle Filter](https://en.wikipedia.org/wiki/Particle_filter). 
 
 Prerequisites
 ---
@@ -21,7 +21,7 @@ Execute script *build.sh* to build the executable:
 ```
 ./build.sh
 ```
-If everything was accordingly, there should be an executable file **particle_filter** on *build* directory.
+If everything worked accordingly, there should be an executable file **particle_filter** on *build* directory.
 
 Running the Application
 ---
@@ -39,7 +39,7 @@ Finally, run the simulator. An example for execution:
 
 [pf.m4v](pf.m4v)
 
-We could obtain a **error** as:
+We could obtain an **error** as:
 
 |Data|Error|
 |----|-----|
@@ -47,7 +47,7 @@ We could obtain a **error** as:
 |y   |0.112|
 |yaw |0.004|
 
-An the simulator could execute the test in less than 60 seconds.
+The simulator could execute the test in less than 60 seconds.
 
 Implementation Details
 ---
