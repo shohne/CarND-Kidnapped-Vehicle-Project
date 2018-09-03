@@ -1,7 +1,7 @@
 ## Kidnapped Vehicle Project
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-This repo contains the written code to complete the project **Kidnapped Vehicle Project** on Udacity Self-Driving Car Nanodegree. The goal is to predict vehicle position and velocity from radar and lidar measures using a [Particle Filter](https://en.wikipedia.org/wiki/Particle_filter). 
+This repo contains the written code to complete the project **Kidnapped Vehicle Project** on Udacity Self-Driving Car Nanodegree. The goal is to predict vehicle position and orientation from measures distance to landmarks using a [Particle Filter](https://en.wikipedia.org/wiki/Particle_filter). 
 
 Prerequisites
 ---
